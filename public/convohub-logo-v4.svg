@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <!-- Background Hexagonal Pattern -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981"/>
+      <stop offset="100%" style="stop-color:#0EA5E9"/>
+    </linearGradient>
+    
+    <!-- Hexagon Pattern -->
+    <pattern id="hexPattern" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M15 5 L25 10 L25 20 L15 25 L5 20 L5 10 Z" 
+            fill="none" 
+            stroke="white" 
+            stroke-width="0.5" 
+            opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <!-- Main Logo Shape - Interlocking Hexagons -->
+  <g transform="translate(40, 20)">
+    <!-- First Hexagon -->
+    <path d="M30 20 
+             L50 8 
+             L70 20
+             L70 44 
+             L50 56
+             L30 44 Z" 
+          fill="url(#logoGradient)"/>
+    
+    <!-- Second Hexagon -->
+    <path d="M60 15
+             L80 3
+             L100 15
+             L100 39
+             L80 51
+             L60 39 Z" 
+          fill="url(#logoGradient)"
+          opacity="0.9"/>
+    
+    <!-- Pattern Overlay -->
+    <rect x="0" y="0" width="320" height="80" fill="url(#hexPattern)"/>
+  </g>
+
+  <!-- Logo Text -->
+  <g transform="translate(120, 35)">
+    <text x="0" y="30" 
+          font-family="Arial, sans-serif" 
+          font-weight="bold" 
+          font-size="38">
+      <tspan fill="white">Convo</tspan>
+      <tspan fill="#E0F2FE">Hub</tspan>
+    </text>
+  </g>
+
+  <!-- Connecting Lines -->
+  <g transform="translate(40, 60)" stroke="white" stroke-width="1.5" opacity="0.6">
+    <line x1="0" y1="0" x2="20" y2="0"/>
+    <line x1="30" y1="0" x2="50" y2="0"/>
+    <line x1="60" y1="0" x2="80" y2="0"/>
+  </g>
+
+  <!-- Accent Points -->
+  <circle cx="310" cy="45" r="3" fill="white" opacity="0.8"/>
+  <circle cx="325" cy="45" r="3" fill="white" opacity="0.8"/>
+  <circle cx="340" cy="45" r="3" fill="white" opacity="0.8"/>
+</svg>
