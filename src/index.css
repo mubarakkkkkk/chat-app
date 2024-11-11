@@ -5,7 +5,26 @@
 }
 .landing{
   background-color: black;
+  height: 100vh;
 }
 .logo{
   width: 200px;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+.loginBtn{
+  border-radius: 20px;
+  padding: 10px;
+  height: 0;
+}
+.linkNBtn{
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.link{
+  text-decoration: none;
+  font-family: sans-serif;
 }

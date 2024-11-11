@@ -7,8 +7,10 @@ const Home = () => {
     <div className='landing'>
       <nav className='navigation'>      
       <img className='logo' src={Logo} alt="logo" />
-      <a href="/signUp">SignUp</a>
-      <button>Login</button>
+      <div className='linkNBtn'>
+      <a href="/signUp" className='link'>SignUp</a>
+      <button className='loginBtn'>Login</button>
+      </div>     
       </nav>
     </div>
   )
