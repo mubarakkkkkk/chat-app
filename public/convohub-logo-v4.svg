@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <!-- Black Background -->
+  <rect x="0" y="0" width="400" height="120" fill="black"/>
+
   <!-- Background Hexagonal Pattern -->
   <defs>
     <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -47,8 +50,7 @@
           font-family="Arial, sans-serif" 
           font-weight="bold" 
           font-size="38">
-      <tspan fill="white">Convo</tspan>
-      <tspan fill="#E0F2FE">Hub</tspan>
+      <tspan fill="white">ConvoHub</tspan>
     </text>
   </g>
 
@@ -60,7 +62,7 @@
   </g>
 
   <!-- Accent Points -->
-  <circle cx="310" cy="45" r="3" fill="white" opacity="0.8"/>
-  <circle cx="325" cy="45" r="3" fill="white" opacity="0.8"/>
+  <circle cx="320" cy="45" r="3" fill="white" opacity="0.8"/>
+  <circle cx="330" cy="45" r="3" fill="white" opacity="0.8"/>
   <circle cx="340" cy="45" r="3" fill="white" opacity="0.8"/>
 </svg>
