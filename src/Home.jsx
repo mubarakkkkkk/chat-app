@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import Logo from "./Images/ConvoHubLogo.png"
+import Logo from "./Images/convohub-logo-v4 (5).png"
 
 const Home = () => {
   return (
@@ -12,6 +12,14 @@ const Home = () => {
       <button className='loginBtn'>Login</button>
       </div>     
       </nav>
+      <section className='content'>
+        <h1>
+          The Communications Experience Reimagined
+        </h1>
+        <p>
+          
+        </p>
+      </section>
     </div>
   )
 }

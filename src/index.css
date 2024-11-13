@@ -16,13 +16,14 @@
 }
 .loginBtn{
   border-radius: 20px;
-  padding: 10px;
-  height: 0;
+  width: 100px;
+  height: 40px;
 }
 .linkNBtn{
   width: 300px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .link{
   text-decoration: none;
