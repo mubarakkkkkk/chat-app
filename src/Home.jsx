@@ -10,7 +10,7 @@ const Home = () => {
       <div className='linkNBtn'>
       <a href="/signUp" className='link'>SignUp</a>
       <a href="/login">
-      <button className='loginBtn'>Login</button>
+      <button className='navLoginBtn'>Login</button>
       </a>
       </div>     
       </nav>
